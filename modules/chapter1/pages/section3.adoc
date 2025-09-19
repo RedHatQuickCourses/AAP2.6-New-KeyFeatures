@@ -57,7 +57,7 @@ Prerequisites:
 
 image::MCP.png[]
 
-- Deploy the chatbot via the OCP operator https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator [see documentation,windows=_blank]
+- Deploy the chatbot via the OCP operator https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator[see documentation,windows=_blank]
 - Deploy Ansible Automation Platform 2.6 on OpenShift
 - Create a chatbot configuration secret
 - Configure *aap_gateway_url* and *aap_controller_url* in chatbot configuration secret
