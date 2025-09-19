@@ -1,13 +1,10 @@
 = What's New in Ansible Automation Platform (AAP) 2.6
 
-----
-image::WelcomeAAP.png[]
-----
-
-
 
 *Your team isn’t just preparing for the future, you’re automating for it.* 
 Our latest AAP 2.6 release delivers new features, platform enhancements, and strategic integrations that will help you continue to build a resilient, trusted foundation for the next generation of IT operations. 
+
+image::WelcomeAAP.png[]
 
 - AAP 2.6 *unlocks more value* with the new automation dashboard.
 - AAP 2.6 *achieves new levels* of scale with the new self-service automation portal.
