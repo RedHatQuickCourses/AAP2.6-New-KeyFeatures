@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Section 1 :: New Key Features of AAP2.6</title>
+    <title>Automation Dashboard :: New Key Features of AAP2.6</title>
     <link rel="prev" href="index.html">
     <link rel="next" href="section2.html">
     <meta name="generator" content="Antora 3.1.3">
@@ -55,45 +55,16 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="index.html">Chapter 1</a>
+    <a class="nav-link" href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a>
 <ul class="nav-list">
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="section1.html">Section 1</a>
+    <a class="nav-link" href="section1.html">Automation Dashboard</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section2.html">Section 2</a>
+    <a class="nav-link" href="section2.html">Self-service Automation Portal</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section3.html">Section 3</a>
-  </li>
-</ul>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter2/index.html">Chapter 2</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter2/section1.html">Section 1</a>
-  </li>
-</ul>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter3/index.html">Chapter 3</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter3/section1.html">Section 1</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter3/section2.html">Section 2</a>
+    <a class="nav-link" href="section3.html">Ansible Lightspeed Intelligent Assistant</a>
   </li>
 </ul>
   </li>
@@ -135,8 +106,8 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="../index.html">New Key Features of AAP2.6</a></li>
-    <li><a href="index.html">Chapter 1</a></li>
-    <li><a href="section1.html">Section 1</a></li>
+    <li><a href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a></li>
+    <li><a href="section1.html">Automation Dashboard</a></li>
   </ul>
 </nav>
 </div>
@@ -145,26 +116,57 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Section 1</h1>
+<h1 class="page">Automation Dashboard</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The new <strong>automation dashboard</strong> delivers something that customers have been waiting for - a streamlined and secure (on-premise) way to monitor, track and report on the value that automation is delivering to the business.</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Create multiple copies of this section as needed.</p>
+<p><strong>Demonstrate value and measure ROI</strong>: Easily track key metrics like time savings, job success, and return on investment (ROI). You&#8217;ll have the data you need to prove the value of your automation investment and share successes with key stakeholders.</p>
 </li>
 <li>
-<p>Remove any unnecessary sections or chapter pages.</p>
+<p><strong>Make smarter, data-driven decisions</strong>: Get real-time, actionable insights into your automation usage and impact. The dashboard helps you guide IT operations and make smarter decisions based on real data.</p>
 </li>
 <li>
-<p>Customize the section as appropriate.</p>
+<p><strong>Optimize and right-size your automation</strong>: Achieve full visibility into your entire automation deployment, including both direct and indirect nodes. This allows you to address over- and under-utilization, ensuring you&#8217;re getting the most out of your investment.</p>
 </li>
 <li>
-<p>Ensure that each page contains a manageable amount of content.</p>
+<p><strong>Securely report and share your data</strong>: The on-premise, self-contained utility protects your data while providing flexible reporting options. You can schedule reports and easily ingest the data into your own business intelligence (BI) tools.</p>
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_implementation_details"><a class="anchor" href="#_implementation_details"></a>Implementation Details:</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Deployed securely, on-premise</strong>: The dashboard is a self-contained, on-premise utility that runs on a dedicated RHEL 9 x86 and ARM host, ensuring your data remains secure within your environment.</p>
+</li>
+<li>
+<p><strong>Easy integration</strong>: It integrates with your existing AAP 2.4 or 2.5 instances using an OAuth2 token for read-only access, allowing you to pull data without complex setup.</p>
+</li>
+<li>
+<p><strong>Streamlined installation</strong>: The setup process is a containerized, playbook-driven installation, simplifying deployment and configuration on your RHEL host.</p>
+</li>
+<li>
+<p><strong>Automated data sync</strong>: Once configured, the dashboard automatically syncs and visualizes data from your AAP instances, giving you real-time insights with minimal ongoing effort.</p>
+</li>
+<li>
+<p><strong>Flexible reporting</strong>: The dashboard allows you to generate customizable PDF reports for stakeholders and export raw data to a CSV for ingestion into your preferred BI tools, providing flexible options for demonstrating value.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 <nav class="pagination">
-  <span class="prev"><a href="index.html">Chapter 1</a></span>
-  <span class="next"><a href="section2.html">Section 2</a></span>
+  <span class="prev"><a href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a></span>
+  <span class="next"><a href="section2.html">Self-service Automation Portal</a></span>
 </nav>
 </article>
   </div>
