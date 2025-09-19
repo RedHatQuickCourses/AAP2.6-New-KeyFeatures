@@ -1,0 +1,49 @@
+= The Ansible Content Ecosystem Continues to Grow 
+
+image::Ecosystem.png[]
+
+image::Ecosystem2.png[]
+
+
+- *12 new technology partners*
+- *9 new partner Certified Collections*
+- *New Certified partner app: Splunk App for EDA*
+- *10 new Validated Collections*
+- *400+ collection updates*
+
+As you plan your upgrade to AAP 2.6, you can expect a more streamlined and stable experience. 
+
+We have invested heavily in modern architecture improvements, ensuring the availability of more opinionated reference architectures, and making significant improvements to the installer. 
+
+The bottom line? *AAP 2.4 customers can feel confident upgrading to AAP 2.6 right away*, in order to take advantage of a host of new features and platform enhancements.
+
+image::Eco3.png[]
+
+== Core Improvements in AAP 2.6
+
+- *Direct Upgrade Path*: To streamline the process, customers can now upgrade directly from AAP 2.4 to 2.6, bypassing the need for an intermediate step to 2.5. This allows them to get the benefits of all new improvements faster.
+
+- *Configuration as Code Parity*: To support customers who heavily use configuration as code, the ansible.platform collections have been updated to ensure full feature parity for managing IAM entities and RBAC between versions 2.4 and 2.6.
+
+- *Communication and Notification System*: A new product notification feed is available at announcements.ansiblecloud.redhat.com/feed.atom. This allows administrators and users to subscribe to important updates regarding maintenance, upgrades, and other product news via an RSS feed.
+
+- *Authenticator and IAM Migration*: A major pain point from the 2.5 upgrade has been addressed. For upgrades from 2.4, the controller now acts as the source of truth. All Identity and Access Management (IAM) data—including organizations, teams, and users—and SSO authenticator configurations are ported from the controller into the gateway during the upgrade, minimizing manual reconfiguration.
+
+- *User Experience (UX) Enhancements*: The platform's Role-Based Access Control (RBAC) has been redesigned and unified for all services. The previously separate tabs for controller, hub, and EDA have been consolidated into a single, streamlined view , and the visual design is updated with the latest PatternFly framework.
+
+== Splunk EDA Integration
+
+- As part of a key strategic alliance with Cisco, a new, fully supported, and free Splunkbase add-on is available.
+- This allows customers to trigger automated actions in Ansible (via webhooks or Kafka) based on the operational insights and data detected in Splunk.
+
+== HashiCorp Integrations
+
+- Terraform: The certified collection that allows Ansible to work with Terraform Enterprise and Terraform Cloud was released on July 15th. A new, purpose-built collection (hashicorp.terraform) will be released in September.
+- Vault: A new certified collection, hashicorp.vault, is planned for release in October to support integration with enterprise-certified Vault.
+
+
+
+
+
+
+

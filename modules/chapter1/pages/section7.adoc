@@ -1,0 +1,29 @@
+= Upgrades and Migrations
+
+AAP 2.6 introduces significant improvements to make upgrading and migrating your Ansible environment more straightforward and reliable.
+
+== Supported paths
+
+The platform now supports direct upgrades and migrations from versions 2.4 and 2.5 to 2.6 across various installation types.
+
+[cols="1,2,2,2"]
+|===
+|From AAP Version |If on... |You can... |To...
+
+|2.4 |RPM (RHEL 9) |Upgrade |2.6 RPM
+|2.4 |RPM (RHEL 9) |Migrate & Upgrade |2.6 Containerized / OCP
+|2.4 |OpenShift Operator |Upgrade |2.6 OpenShift Operator
+|2.5 |RPM (RHEL 9) |Upgrade |2.6 RPM
+|2.5 |RPM (RHEL 9) |Migrate & Upgrade |2.6 Containerized / OCP
+|2.5 |Containerized |Upgrade |2.6 Containerized
+|2.5 |Containerized |Migrate & Upgrade |2.6 OpenShift Operator
+|2.5 |OpenShift Operator |Upgrade |2.6 OpenShift Operator
+|2.6 |RPM or Containerized |Migrate (same version) |2.6 Containerized / OCP
+|===
+
+[NOTE]
+====
+An *upgrade* refers to staying on the same OS and using the same installation method. A *migration* involves changing the OS and/or installation method.
+====
+
+
