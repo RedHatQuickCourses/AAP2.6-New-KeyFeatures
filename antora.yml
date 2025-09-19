@@ -1,5 +1,5 @@
-name: REPLACEREPONAME
-title: FIXME Course Title
+name: AAP2.6-New-KeyFeatures
+title: New Key Features of AAP2.6
 version: 1
 nav:
 - modules/ROOT/nav.adoc

@@ -1,6 +1,6 @@
 site:
-  title: FIXME Course Title
-  start_page: REPLACEREPONAME::index.adoc
+  title: New Key Features of AAP2.6
+  start_page: AAP2.6-New-KeyFeatures::index.adoc
 
 content:
   sources:
