@@ -1,0 +1,27 @@
+= Summary
+
+This course provided a comprehensive look at the new features and capabilities in Ansible Automation Platform 2.6. The release focuses on four main pillars to enhance user experience and improve operational efficiency: simplified upgrades and migrations, AI-powered assistance, new self-service capabilities, and enhanced platform intelligence.
+
+
+== Key takeaways from the course include:
+
+
+- *The Automation Dashboard*: A new on-premise tool for monitoring, tracking, and reporting on the business value of automation, enabling data-driven decisions.
+
+
+- *The Self-Service Automation Portal*: Empowers non-technical users and subject matter experts to run automation on their own, scaling adoption across the enterprise while maintaining administrative control.
+
+
+- *Ansible Lightspeed Intelligent Assistant*: An embedded generative AI chat assistant that provides on-the-fly support for platform management, troubleshooting, and root cause analysis.
+
+
+- *Simplified Upgrades*: A direct upgrade path from AAP 2.4 to 2.6 and automated migration of authenticators and IAM data significantly reduce complexity and manual effort.
+
+These features, along with numerous platform enhancements and an expanding content ecosystem, help you build a resilient and trusted foundation for the next generation of IT operations.
+
+
+
+
+
+
+

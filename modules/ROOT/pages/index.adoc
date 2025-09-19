@@ -1,27 +1,36 @@
-= An Example Quick Course
+= AAP2.6-New-KeyFeatures
 :navtitle: Home
 
 == Introduction
 
-Course Title: Course title FIXME
+This course offers a detailed overview of the new capabilities introduced in Red Hat Ansible Automation Platform (AAP) 2.6. We will delve into the primary focus areas of this release, which are designed to enhance user experience, boost operational efficiency, and broaden the platform's capabilities.
 
-Description:
-Course description FIXME
-
-Duration: FIXME hours
+Duration: 60 minutes
 
 == Objectives
 
 On completing this course, you should be able to:
 
-* Observable, measurable objective...
-* Observable, measurable objective...
-* Observable, measurable objective...
+- Understand the key focus areas of the AAP 2.6 release.
+- Utilize the Automation Dashboard to measure automation value and performance.
+- Enable the Self-Service Automation Portal to scale automation to a wider audience.
+- Leverage AI-powered assistance for platform management and troubleshooting.
+- Understand the simplified upgrade and migration paths to AAP 2.6.
+- Identify key platform enhancements and new ecosystem integrations.
 
 == Prerequisites
 
 This course assumes that you have the following prior experience:
 
-* Course or experience...
-* Course or experience...
-* Course or experience...
+- Foundational knowledge of Linux, Containers, and Ansible. 
+- https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D73946012[Basic Deployment of Ansible Automation Platform 2.5,windows=_blank].
+
+
+== Contributors
+
+The PTL team acknowledges the valuable contributions of the following Red Hat associates:
+
+- Amrinder Singh (Subject Matter Expert)
+- Rutuja Deshmukh (Content Architect)
+- Caitlyn Rymarchyk (Sr Program Manager)
+- Anna Swicegood (Learning Product Manager)

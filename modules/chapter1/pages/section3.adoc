@@ -1,6 +1,61 @@
-= Section 3
+= Ansible Lightspeed Intelligent Assistant
 
-* Create multiple copies of this section as needed.
-* Remove any unnecessary sections or chapter pages.
-* Customize the section as appropriate.
-* Ensure that each page contains a manageable amount of content.
+The new *Ansible Lightspeed intelligent assistant* is a chat assistant embedded directly into the Ansible Automation Platform UI. It harnesses generative AI to provide platform admins and users on-the-fly support for day-to-day automation platform management. 
+
+- Provides on-demand Ansible expertise.
+- Speeds up troubleshooting, onboarding, and day-to-day management.
+- Includes links to help with source validation and accelerated learning.
+
+== Increase Efficiency with Ansible Lightspeed
+
+- A new chat assistant embedded directly into Ansible Automation Platform UI.
+- Provides on-the-fly support for faster troubleshooting, platform onboarding, and the day-to-day management of automation. 
+- Includes links to references and resources for source validation and accelerated learning. 
+- Offers flexible model connectivity; use in tandem with Red Hat AI. 
+- Example prompts:
+-- "What is an execution environment?"
+-- "How do I upgrade to the latest version of Ansible Automation Platform?"
+
+== Implementation
+
+=== Deployment options:
+
+- *On-premise (Q4 - VMs or bare metal)*, using the Ansible Automation Platform containerized installer.
+- *On OCP* using the Ansible Automation Platform operator.
+
+=== Model options:
+
+The intelligent assistant is available free of charge, but customers must bring their own model, hosted on these supported platforms / providers: 
+
+- *Red Hat AI*: Red Hat AI inference server, RHEL AI, or Red Hat Openshift AI 
+- *Supported 3rd-party models (Q4)*: OpenAI, Azure Open AI, and IBM watsonx AI
+
+== Tech Preview: Ansible Lightspeed intelligent assistant + MCP 
+
+- New capability within the intelligent assistant to help automators *identify and investigate underlying operational issues* in their automation deployment. 
+
+- *Query, troubleshoot, and perform root cause analysis* of your AAP environment within an intuitive chat experience.
+
+- *Gather facts and insights* into system health and job status to resolve operational issues faster.  
+
+- Utilize contextual awareness of your automation to *make better decisions and take the right actions*. 
+
+=== How do I enable MCP with the Ansible Intelligent Assistant
+
+Prerequisites:
+
+- Large Language Model (LLM) provider.
+- Ansible Automation Platform 2.6 on Openshift.
+- Deploy the chatbot via the OCP operator https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator [see documentation,windows=_blank]
+- Deploy Ansible Automation Platform 2.6 on OpenShift
+- Create a chatbot configuration secret
+- Configure *aap_gateway_url* and *aap_controller_url* in chatbot configuration secret
+-- These values can be obtained from the routes from Red Hat Openshift
+- Modify AAP custom resource to enable Ansible Lightspeed Intelligent Assistant 
+
+
+
+
+
+
+

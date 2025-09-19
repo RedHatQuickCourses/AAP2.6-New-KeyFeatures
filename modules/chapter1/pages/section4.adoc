@@ -1,0 +1,11 @@
+= Event-Driven Ansible enhancements
+
+- *Support for External Secret Management Systems*, including Hashicorp Vault and CyberArk.
+- Event-Driven Ansible Projects Source Control URL is *now editable*.
+- *New label to identify jobs triggered from Event-Driven Ansible*, along with support for custom labels, for more efficient tracing and audibility. 
+- *Kafka enhancements*:
+-- Support for multiple Kafka topics 
+-- Support for regular expressions and wildcards
+-- GSSAPI for Kafka Source Plugin
+- New filter plugin for nested alerts: Event splitter.
+- *Rulebook enhancements for Kubernetes* - support for a concurrency key to group events by resource.

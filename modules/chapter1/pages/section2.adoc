@@ -1,6 +1,70 @@
-= Section 2
+= Self-service Automation Portal
 
-* Create multiple copies of this section as needed.
-* Remove any unnecessary sections or chapter pages.
-* Customize the section as appropriate.
-* Ensure that each page contains a manageable amount of content.
+The new *self-service automation portal* enables IT ops teams to take a platform engineering approach to automation service delivery, helping customers automate at new levels of scale across the enterprise. 
+
+- Unlock wider automation adoption across your organization.
+- Scale automation without the overhead of building custom solutions.
+- Empower admins to share automation while maintaining full control and consistency.
+- Simplify automation service delivery for non-experts.
+
+== Streamline service delivery with the new self-service automation portal 
+
+The new self-service automation portal *empowers platform admins to provide a streamlined “point-and-click” Ansible automation experience* to a broader set of users within the organization. Domain SME who aren’t Ansible users/experts now have a dedicated self-service portal from which they can launch a range of automation jobs for core use cases, without needing full access to AAP.
+
+- *Step 1* - Defines automation use cases and set RBAC parameters 
+- *Step 2* - Logs into the AAP self-service automation portal
+- *Step 3* - Views and runs relevant automation relevant with an easy-to-use self-service experience.
+- *Step 4* - In this example, user is guided step-by-step to backup network devices.
+
+== Key Features and Values
+
+- Domain SMEs get simple, point and click automation experience without needing Ansible experience. 
+
+
+- Platform admins maintain consistency and control with full RBAC, and simple, seamless customization and syncing of job templates. 
+
+
+- Automation teams achieve new levels of adoption and scale, without the overhead of building and managing custom/3rd party self-service solutions.
+
+- Syncs existing automation content: Extend the reach and impact of your automation job templates, while maintaining full control and compliance. 
+
+- Seamless Integration: Uses your existing Ansible Automation Platform setup—same logins, same security controls, same automation logic.
+ 
+- Simplified Interface: A distinct, user-friendly web interface designed for business users, not automation experts.
+
+
+- Guided Workflows: Step-by-step forms that walk users through automation requests without technical complexity - automatically generated from your existing job templates.
+
+
+- Smart Forms: Real-time field validation, conditional and dynamic forms, and dropdown fields for AAP artifacts, such as AAP inventories.
+
+== Implementation and Roadmap
+
+=== Implementation details:
+
+- Distinct UI from AAP that can be added as an external link in the AAP UI menu using new OAuth feature.
+
+[NOTE]
+====
+New OAuth Feature - Requires AAP 2.5+ version for enhanced oAuth feature that enables adding external links to AAP UI menu.
+====
+
+- Integrated AAP 2.5 authentication. Sign into the self-service UI with your AAP credentials.
+
+- Automatic synchronization of AAP 2.5+ Org, Teams, and Users to the self-service automation portal for consistent access delegation.  
+
+- Installed independently from AAP on Openshift using a Helm chart for GA.
+
+- Import customized Forms from repositories for a richer, dynamic end-user experience.
+
+=== Feature Roadmap:
+
+- Improving onboarding and installation experience by introducing a RHEL Installer, and enhanced initial setup.
+
+- Extending self-service automation to support multiple AAP Organizations while strengthening authentication and RBAC.
+
+- Making AAP Workflows available in the self-service automation portal.
+
+- Ongoing improvements and refinements to the overall user experience.
+
+

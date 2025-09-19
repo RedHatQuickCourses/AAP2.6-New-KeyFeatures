@@ -1,7 +1,26 @@
-= Chapter 1
+= What's New in Ansible Automation Platform (AAP) 2.6
 
-In this section, we cover... FIXME
+----
+image::WelcomeAAP.png[]
+----
 
 
-- Add or remove section entries in the `antora.yaml` file as needed.
-- Ensure you create or delete the corresponding directory for the chapter accordingly.
+
+*Your team isn’t just preparing for the future, you’re automating for it.* 
+Our latest AAP 2.6 release delivers new features, platform enhancements, and strategic integrations that will help you continue to build a resilient, trusted foundation for the next generation of IT operations. 
+
+- AAP 2.6 *unlocks more value* with the new automation dashboard.
+- AAP 2.6 *achieves new levels* of scale with the new self-service automation portal.
+- AAP 2.6 helps you *operate more efficiently* with the new Ansible Lightspeed intelligent assistant.
+
+
+AAP 2.6 focuses on four main pillars to enhance the user experience, improve operational efficiency, and extend the platform's capabilities.
+
+== Key Release Highlights:
+
+- *Upgrades & Migration*: Simplified, direct upgrade paths and smoother migration processes between different deployment topologies.
+- *Ansible Lightspeed Intelligent Assistant*: The introduction of the Red Hat Ansible Lightspeed intelligent assistant provides context-aware guidance directly within the platform.
+- *Self-Service Automation Portal*: A new, simplified user interface empowers non-technical users and subject matter experts to run automation on their own.
+- *Automation Dashboard*: The new automation dashboard delivers something that customers have been waiting for - a streamlined and secure (on-premise) way to monitor, track and report on the value that automation is delivering to the business. 
+
+
