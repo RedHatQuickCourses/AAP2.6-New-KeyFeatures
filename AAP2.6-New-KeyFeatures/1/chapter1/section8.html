@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Untitled :: New Key Features of AAP2.6</title>
+    <title>The Ansible Content Ecosystem Continues to Grow :: New Key Features of AAP2.6</title>
     <link rel="prev" href="section7.html">
     <link rel="next" href="section9.html">
     <meta name="generator" content="Antora 3.1.3">
@@ -76,10 +76,10 @@
     <a class="nav-link" href="section6.html">AI-assisted Inventory Generation</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section7.html">section7.adoc</a>
+    <a class="nav-link" href="section7.html">Upgrades and Migrations</a>
   </li>
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="section8.html">section8.adoc</a>
+    <a class="nav-link" href="section8.html">The Ansible Content Ecosystem Continues to Grow</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section9.html">Summary</a>
@@ -118,7 +118,7 @@
   <ul>
     <li><a href="../index.html">New Key Features of AAP2.6</a></li>
     <li><a href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a></li>
-    <li><a href="section8.html">section8.adoc</a></li>
+    <li><a href="section8.html">The Ansible Content Ecosystem Continues to Grow</a></li>
   </ul>
 </nav>
 </div>
@@ -127,9 +127,110 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-
+<h1 class="page">The Ansible Content Ecosystem Continues to Grow</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock unresolved">
+<div class="content">
+<img src="Ecosystem.png" alt="Ecosystem">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/Ecosystem2.png" alt="Ecosystem2">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>12 new technology partners</strong></p>
+</li>
+<li>
+<p><strong>9 new partner Certified Collections</strong></p>
+</li>
+<li>
+<p><strong>New Certified partner app: Splunk App for EDA</strong></p>
+</li>
+<li>
+<p><strong>10 new Validated Collections</strong></p>
+</li>
+<li>
+<p><strong>400+ collection updates</strong></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>As you plan your upgrade to AAP 2.6, you can expect a more streamlined and stable experience.</p>
+</div>
+<div class="paragraph">
+<p>We have invested heavily in modern architecture improvements, ensuring the availability of more opinionated reference architectures, and making significant improvements to the installer.</p>
+</div>
+<div class="paragraph">
+<p>The bottom line? <strong>AAP 2.4 customers can feel confident upgrading to AAP 2.6 right away</strong>, in order to take advantage of a host of new features and platform enhancements.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/Eco3.png" alt="Eco3">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_core_improvements_in_aap_2_6"><a class="anchor" href="#_core_improvements_in_aap_2_6"></a>Core Improvements in AAP 2.6</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Direct Upgrade Path</strong>: To streamline the process, customers can now upgrade directly from AAP 2.4 to 2.6, bypassing the need for an intermediate step to 2.5. This allows them to get the benefits of all new improvements faster.</p>
+</li>
+<li>
+<p><strong>Configuration as Code Parity</strong>: To support customers who heavily use configuration as code, the ansible.platform collections have been updated to ensure full feature parity for managing IAM entities and RBAC between versions 2.4 and 2.6.</p>
+</li>
+<li>
+<p><strong>Communication and Notification System</strong>: A new product notification feed is available at announcements.ansiblecloud.redhat.com/feed.atom. This allows administrators and users to subscribe to important updates regarding maintenance, upgrades, and other product news via an RSS feed.</p>
+</li>
+<li>
+<p><strong>Authenticator and IAM Migration</strong>: A major pain point from the 2.5 upgrade has been addressed. For upgrades from 2.4, the controller now acts as the source of truth. All Identity and Access Management (IAM) data—including organizations, teams, and users—and SSO authenticator configurations are ported from the controller into the gateway during the upgrade, minimizing manual reconfiguration.</p>
+</li>
+<li>
+<p><strong>User Experience (UX) Enhancements</strong>: The platform&#8217;s Role-Based Access Control (RBAC) has been redesigned and unified for all services. The previously separate tabs for controller, hub, and EDA have been consolidated into a single, streamlined view , and the visual design is updated with the latest PatternFly framework.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_splunk_eda_integration"><a class="anchor" href="#_splunk_eda_integration"></a>Splunk EDA Integration</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>As part of a key strategic alliance with Cisco, a new, fully supported, and free Splunkbase add-on is available.</p>
+</li>
+<li>
+<p>This allows customers to trigger automated actions in Ansible (via webhooks or Kafka) based on the operational insights and data detected in Splunk.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hashicorp_integrations"><a class="anchor" href="#_hashicorp_integrations"></a>HashiCorp Integrations</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Terraform: The certified collection that allows Ansible to work with Terraform Enterprise and Terraform Cloud was released on July 15th. A new, purpose-built collection (hashicorp.terraform) will be released in September.</p>
+</li>
+<li>
+<p>Vault: A new certified collection, hashicorp.vault, is planned for release in October to support integration with enterprise-certified Vault.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 <nav class="pagination">
-  <span class="prev"><a href="section7.html">section7.adoc</a></span>
+  <span class="prev"><a href="section7.html">Upgrades and Migrations</a></span>
   <span class="next"><a href="section9.html">Summary</a></span>
 </nav>
 </article>

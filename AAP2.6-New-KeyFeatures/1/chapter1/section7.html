@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Untitled :: New Key Features of AAP2.6</title>
+    <title>Upgrades and Migrations :: New Key Features of AAP2.6</title>
     <link rel="prev" href="section6.html">
     <link rel="next" href="section8.html">
     <meta name="generator" content="Antora 3.1.3">
@@ -76,10 +76,10 @@
     <a class="nav-link" href="section6.html">AI-assisted Inventory Generation</a>
   </li>
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="section7.html">section7.adoc</a>
+    <a class="nav-link" href="section7.html">Upgrades and Migrations</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section8.html">section8.adoc</a>
+    <a class="nav-link" href="section8.html">The Ansible Content Ecosystem Continues to Grow</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section9.html">Summary</a>
@@ -118,7 +118,7 @@
   <ul>
     <li><a href="../index.html">New Key Features of AAP2.6</a></li>
     <li><a href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a></li>
-    <li><a href="section7.html">section7.adoc</a></li>
+    <li><a href="section7.html">Upgrades and Migrations</a></li>
   </ul>
 </nav>
 </div>
@@ -127,10 +127,111 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-
+<h1 class="page">Upgrades and Migrations</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>AAP 2.6 introduces significant improvements to make upgrading and migrating your Ansible environment more straightforward and reliable.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_supported_paths"><a class="anchor" href="#_supported_paths"></a>Supported paths</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The platform now supports direct upgrades and migrations from versions 2.4 and 2.5 to 2.6 across various installation types.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 14.2857%;">
+<col style="width: 28.5714%;">
+<col style="width: 28.5714%;">
+<col style="width: 28.5715%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">From AAP Version</th>
+<th class="tableblock halign-left valign-top">If on&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">You can&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">To&#8230;&#8203;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RPM (RHEL 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 RPM</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RPM (RHEL 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Migrate &amp; Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 Containerized / OCP</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OpenShift Operator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 OpenShift Operator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RPM (RHEL 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 RPM</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RPM (RHEL 9)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Migrate &amp; Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 Containerized / OCP</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Containerized</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 Containerized</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Containerized</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Migrate &amp; Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 OpenShift Operator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OpenShift Operator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 OpenShift Operator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RPM or Containerized</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Migrate (same version)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6 Containerized / OCP</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>An <strong>upgrade</strong> refers to staying on the same OS and using the same installation method. A <strong>migration</strong> involves changing the OS and/or installation method.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
 <nav class="pagination">
   <span class="prev"><a href="section6.html">AI-assisted Inventory Generation</a></span>
-  <span class="next"><a href="section8.html">section8.adoc</a></span>
+  <span class="next"><a href="section8.html">The Ansible Content Ecosystem Continues to Grow</a></span>
 </nav>
 </article>
   </div>
