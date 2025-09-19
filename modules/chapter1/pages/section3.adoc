@@ -2,11 +2,17 @@
 
 The new *Ansible Lightspeed intelligent assistant* is a chat assistant embedded directly into the Ansible Automation Platform UI. It harnesses generative AI to provide platform admins and users on-the-fly support for day-to-day automation platform management. 
 
+image::Lightspeed.png[]
+
 - Provides on-demand Ansible expertise.
 - Speeds up troubleshooting, onboarding, and day-to-day management.
 - Includes links to help with source validation and accelerated learning.
 
 == Increase Efficiency with Ansible Lightspeed
+
+image::Efficiency.png[]
+
+image::Efficiency2.png[]
 
 - A new chat assistant embedded directly into Ansible Automation Platform UI.
 - Provides on-the-fly support for faster troubleshooting, platform onboarding, and the day-to-day management of automation. 
@@ -32,6 +38,8 @@ The intelligent assistant is available free of charge, but customers must bring 
 
 == Tech Preview: Ansible Lightspeed intelligent assistant + MCP 
 
+image::Techpreview.png[]
+
 - New capability within the intelligent assistant to help automators *identify and investigate underlying operational issues* in their automation deployment. 
 
 - *Query, troubleshoot, and perform root cause analysis* of your AAP environment within an intuitive chat experience.
@@ -46,6 +54,9 @@ Prerequisites:
 
 - Large Language Model (LLM) provider.
 - Ansible Automation Platform 2.6 on Openshift.
+
+image::MCP.png[]
+
 - Deploy the chatbot via the OCP operator https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator [see documentation,windows=_blank]
 - Deploy Ansible Automation Platform 2.6 on OpenShift
 - Create a chatbot configuration secret

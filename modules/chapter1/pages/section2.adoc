@@ -2,6 +2,8 @@
 
 The new *self-service automation portal* enables IT ops teams to take a platform engineering approach to automation service delivery, helping customers automate at new levels of scale across the enterprise. 
 
+image::SelfService.png[]
+
 - Unlock wider automation adoption across your organization.
 - Scale automation without the overhead of building custom solutions.
 - Empower admins to share automation while maintaining full control and consistency.
@@ -10,6 +12,8 @@ The new *self-service automation portal* enables IT ops teams to take a platform
 == Streamline service delivery with the new self-service automation portal 
 
 The new self-service automation portal *empowers platform admins to provide a streamlined “point-and-click” Ansible automation experience* to a broader set of users within the organization. Domain SME who aren’t Ansible users/experts now have a dedicated self-service portal from which they can launch a range of automation jobs for core use cases, without needing full access to AAP.
+
+image::ServiceDelivery.png[]
 
 - *Step 1* - Defines automation use cases and set RBAC parameters 
 - *Step 2* - Logs into the AAP self-service automation portal
@@ -37,6 +41,15 @@ The new self-service automation portal *empowers platform admins to provide a st
 
 
 - Smart Forms: Real-time field validation, conditional and dynamic forms, and dropdown fields for AAP artifacts, such as AAP inventories.
+
+image::PlatformAdmin.png[]
+
+image::PlatformAdmin.gif[]
+
+image::DomainSME.png[]
+
+image::DomainSME.gif[]
+
 
 == Implementation and Roadmap
 

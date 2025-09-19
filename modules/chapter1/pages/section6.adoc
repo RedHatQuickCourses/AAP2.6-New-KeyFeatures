@@ -1,0 +1,21 @@
+= AI-assisted Inventory Generation 
+
+image::AIAssisted.png[]
+
+== Overview
+
+- Generate supported topology inventories for new Ansible Automation Platform installations. 
+- Simplify Ansible Automation Platform installation, reduce onboarding friction, and deploy with  confidence. 
+- State desired topology, platform, and environment; generate a validated inventory file ready for deployment.
+
+== Getting started
+
+- Developer preview: Contact your account team for access. 
+- No model set up or additional configuration required. 
+
+== Feature roadmap
+
+Chatbot integration within Red Hat Hybrid Cloud Console (GA early Q4)
+
+
+

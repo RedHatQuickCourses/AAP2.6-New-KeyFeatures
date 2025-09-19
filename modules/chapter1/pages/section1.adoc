@@ -2,10 +2,14 @@
 
 The new *automation dashboard* delivers something that customers have been waiting for - a streamlined and secure (on-premise) way to monitor, track and report on the value that automation is delivering to the business. 
 
+image::AutomationDashboard.png[]
+
 - *Demonstrate value and measure ROI*: Easily track key metrics like time savings, job success, and return on investment (ROI). You'll have the data you need to prove the value of your automation investment and share successes with key stakeholders.
 - *Make smarter, data-driven decisions*: Get real-time, actionable insights into your automation usage and impact. The dashboard helps you guide IT operations and make smarter decisions based on real data.
 - *Optimize and right-size your automation*: Achieve full visibility into your entire automation deployment, including both direct and indirect nodes. This allows you to address over- and under-utilization, ensuring you're getting the most out of your investment.
 - *Securely report and share your data*: The on-premise, self-contained utility protects your data while providing flexible reporting options. You can schedule reports and easily ingest the data into your own business intelligence (BI) tools.
+
+image::AutomationDashboard2.png[]
 
 == Implementation Details:
 
