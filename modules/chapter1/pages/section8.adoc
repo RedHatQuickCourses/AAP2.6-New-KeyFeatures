@@ -1,6 +1,6 @@
 = The Ansible Content Ecosystem Continues to Grow 
 
-image::Ecosystem.png[]
+image::Ecosystem1.png[]
 
 image::Ecosystem2.png[]
 

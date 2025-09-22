@@ -38,7 +38,7 @@ The intelligent assistant is available free of charge, but customers must bring 
 
 == Tech Preview: Ansible Lightspeed intelligent assistant + MCP 
 
-image::Techpreview.png[]
+image::TechPreview.png[]
 
 - New capability within the intelligent assistant to help automators *identify and investigate underlying operational issues* in their automation deployment. 
 
