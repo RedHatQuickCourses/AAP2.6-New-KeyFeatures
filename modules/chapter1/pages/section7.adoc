@@ -23,7 +23,7 @@ The platform now supports direct upgrades and migrations from versions 2.4 and 2
 
 [NOTE]
 ====
-The support path from 2.4 rpm to 2.6 ocp and container are available in tech preview. https://access.redhat.com/support/offerings/techpreview [tech preview,windows=_blank]
+The support path from 2.4 rpm to 2.6 ocp and container are available in tech preview. https://access.redhat.com/support/offerings/techpreview[tech preview,windows=_blank]
 ====
 
 [NOTE]
