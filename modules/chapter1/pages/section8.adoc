@@ -1,8 +1,6 @@
 = The Ansible Content Ecosystem Continues to Grow 
 
-image::Ecosystem1.png[]
-
-image::Ecosystem2.png[]
+image::EcosystemNew.png[]
 
 
 - *12 new technology partners*
