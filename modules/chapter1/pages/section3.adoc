@@ -48,21 +48,7 @@ image::TechPreview.png[]
 
 - Utilize contextual awareness of your automation to *make better decisions and take the right actions*. 
 
-=== How do I enable MCP with the Ansible Intelligent Assistant
 
-Prerequisites:
-
-- Large Language Model (LLM) provider.
-- Ansible Automation Platform 2.6 on Openshift.
-
-image::MCP.png[]
-
-- Deploy the chatbot via the OCP operator https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator[see documentation,windows=_blank]
-- Deploy Ansible Automation Platform 2.6 on OpenShift
-- Create a chatbot configuration secret
-- Configure *aap_gateway_url* and *aap_controller_url* in chatbot configuration secret
--- These values can be obtained from the routes from Red Hat Openshift
-- Modify AAP custom resource to enable Ansible Lightspeed Intelligent Assistant 
 
 
 

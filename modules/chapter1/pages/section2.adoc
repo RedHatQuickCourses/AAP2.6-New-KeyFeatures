@@ -70,14 +70,6 @@ New OAuth Feature - Requires AAP 2.5+ version for enhanced oAuth feature that en
 
 - Import customized Forms from repositories for a richer, dynamic end-user experience.
 
-=== Feature Roadmap:
 
-- Improving onboarding and installation experience by introducing a RHEL Installer, and enhanced initial setup.
-
-- Extending self-service automation to support multiple AAP Organizations while strengthening authentication and RBAC.
-
-- Making AAP Workflows available in the self-service automation portal.
-
-- Ongoing improvements and refinements to the overall user experience.
 
 

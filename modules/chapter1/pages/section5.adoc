@@ -5,3 +5,5 @@
 - *Enhanced Accessibility Features*: Thanks to additional support for WCAG 2.2 guidelines users relying on screen readers or other assistive technologies will find the platform more navigable and usable, improving overall productivity.
 - *Smoother Performance*: Pages and interactions within Ansible Automation Platform will load faster and feel more fluid, especially during complex operations.
 - *Consistent Design Language*: The updated components and design system will create a more unified and cohesive experience across different parts of the platform.
+
+image::WelcomeAAP.png[]
