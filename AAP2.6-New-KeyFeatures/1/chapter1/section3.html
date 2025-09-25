@@ -47,13 +47,6 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="0">
-<ul class="nav-list">
-  <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="index.html">What&#8217;s New in Ansible Automation Platform (AAP) 2.6</a>
 <ul class="nav-list">
@@ -244,46 +237,6 @@
 <p>Utilize contextual awareness of your automation to <strong>make better decisions and take the right actions</strong>.</p>
 </li>
 </ul>
-</div>
-<div class="sect2">
-<h3 id="_how_do_i_enable_mcp_with_the_ansible_intelligent_assistant"><a class="anchor" href="#_how_do_i_enable_mcp_with_the_ansible_intelligent_assistant"></a>How do I enable MCP with the Ansible Intelligent Assistant</h3>
-<div class="paragraph">
-<p>Prerequisites:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Large Language Model (LLM) provider.</p>
-</li>
-<li>
-<p>Ansible Automation Platform 2.6 on Openshift.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/MCP.png" alt="MCP">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Deploy the chatbot via the OCP operator <a href="https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/latest/html/installing_on_openshift_container_platform/deploying-chatbot-operator">see documentation</a></p>
-</li>
-<li>
-<p>Deploy Ansible Automation Platform 2.6 on OpenShift</p>
-</li>
-<li>
-<p>Create a chatbot configuration secret</p>
-</li>
-<li>
-<p>Configure <strong>aap_gateway_url</strong> and <strong>aap_controller_url</strong> in chatbot configuration secret&#8201;&#8212;&#8201;These values can be obtained from the routes from Red Hat Openshift</p>
-</li>
-<li>
-<p>Modify AAP custom resource to enable Ansible Lightspeed Intelligent Assistant</p>
-</li>
-</ul>
-</div>
 </div>
 </div>
 </div>
