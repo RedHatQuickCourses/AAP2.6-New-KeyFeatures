@@ -50,26 +50,3 @@ image::DomainSME.png[]
 
 image::DomainSME.gif[]
 
-
-== Implementation and Roadmap
-
-=== Implementation details:
-
-- Distinct UI from AAP that can be added as an external link in the AAP UI menu using new OAuth feature.
-
-[NOTE]
-====
-New OAuth Feature - Requires AAP 2.5+ version for enhanced oAuth feature that enables adding external links to AAP UI menu.
-====
-
-- Integrated AAP 2.5 authentication. Sign into the self-service UI with your AAP credentials.
-
-- Automatic synchronization of AAP 2.5+ Org, Teams, and Users to the self-service automation portal for consistent access delegation.  
-
-- Installed independently from AAP on Openshift using a Helm chart for GA.
-
-- Import customized Forms from repositories for a richer, dynamic end-user experience.
-
-
-
-
