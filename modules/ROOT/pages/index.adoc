@@ -1,4 +1,4 @@
-= AAP2.6-New-KeyFeatures
+= Ansible Automation Platform 2.6-New-KeyFeatures
 :navtitle: Home
 
 == Introduction
@@ -23,7 +23,6 @@ On completing this course, you should be able to:
 This course assumes that you have the following prior experience:
 
 - Foundational knowledge of Linux, Containers, and Ansible. 
-- https://training-lms.redhat.com/sso/saml/auth/rhlpint?RelayState=deeplinkoffering%3D73946012[Basic Deployment of Ansible Automation Platform 2.5,windows=_blank].
 
 
 == Contributors
